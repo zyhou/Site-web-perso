@@ -6,7 +6,6 @@
 }
 
 .icones_social:before, .icon-mail:before, .icon-location:before {
-    font-family: 'icomoon';
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -27,15 +26,7 @@
     transition: 0.2s;
 }
 
-.icon-mail:before {
-    content: "\e605";
-}
-
-.icon-location:before {
-    content: "\e606";
-}
-
-.icon-mail:before, .icon-location:before {
+.fa-envelope, .fa-map-marker {
     display: inherit;
     margin-right: 10px;
     font-size: 20px;
@@ -62,54 +53,45 @@
     margin-left: 20px;
 }
 
-.icon-google-plus:before {
-    content: "\e600";
+.fa-google-plus:before {
     background: #db4a39;
 }
 
-.icon-google-plus:after {
+.fa-google-plus:after {
     box-shadow: 2px 2px 0 #db4a39;
 }
 
-
-.icon-github:before {
-    content: "\e601";
-    background: #db4a39;
+.fa-github:before {
+    background: #000000;
 }
 
-.icon-github:after {
-    box-shadow: 2px 2px 0 #db4a39;
+.fa-github:after {
+    box-shadow: 2px 2px 0 #000000;
 }
 
-.icon-twitter:before {
-    content: "\e603";
+.fa-twitter:before {
     background: #41b7d8;
 }
 
-.icon-twitter::after {
+.fa-twitter::after {
     box-shadow: 2px 2px 0 #41b7d8;
 }
 
-
-.icon-vimeo:before {
-    content: "\e604";
-    background: #388fc5;
+.fa-viadeo:before {
+    background: #edaf1c;
 }
 
-.icon-vimeo:after {
-    box-shadow: 2px 2px 0 #388fc5;
+.fa-viadeo:after {
+    box-shadow: 2px 2px 0 #edaf1c;
 }
 
-
-.icon-linkedin:before {
-    content: "\e607";
+.fa-linkedin-square:before {
     background: #0073b2;
 }
 
-.icon-linkedin:after {
+.fa-linkedin-square:after {
     box-shadow: 2px 2px 0 #0073b2;
 }
-
 
 #div_social {
     width: auto;
