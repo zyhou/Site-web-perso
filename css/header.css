@@ -1,6 +1,3 @@
-@charset "UTF-8";
-/* CSS Document */
-
 @import url(http://fonts.googleapis.com/css?family=Lato:400);
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
 @import url(http://fonts.googleapis.com/css?family=Roboto:900);
@@ -18,10 +15,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
-/*////////////////////////////////////
-                NavBar
-/////////////////////////////////////*/
 
 header{
     background: #2c3e50;
@@ -59,10 +52,6 @@ nav {
 	text-decoration: none;
 }
 
-.swipe-area {
-    display: none;
-}
-
 #bouton_menu {
     display: none;
 }
@@ -74,8 +63,6 @@ nav {
 .bordure_menu {
     display: none;
 }
-
-/*////////  Logo   /////////*/
 
 #logo a {
     font-family: "BrushScriptStd";
@@ -97,9 +84,6 @@ nav {
     line-height: 50px;
     font-size: 30px;
 }
-
-
-/*////////  Menu  /////////*/
 
 .icon_menu:before {
     content: "\e005";
@@ -143,9 +127,6 @@ nav li {
 .liens_niveau1:hover {
     color: #ff6760;
 }
-
-
-/*////////  Sous-menu  /////////*/
 
 #menu ul {
     position: absolute;
@@ -214,41 +195,12 @@ nav li {
     overflow: hidden;
 }
 
-.liens_niveau2 {
-    text-decoration: none;
-    font-size: 14px;
-    padding: 13px;
-    color: #bdc3c7;
-    width: 100%;
-    display: block;
-    margin: 0;
-    outline: none;
-    -webkit-transition: 0.2s;
-    -moz-transition: 0.2s;
-    transition: 0.2s;
-}
-
-.liens_niveau2.header-fixed {
-    padding: 9px;
-}
-
-.liens_niveau2:hover {
-    background: #EC7063;
-    color: white;
-}
-
 nav > ul > li:hover > a {
     color: #ff6760;    
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
     transition: 0.2s;
 }
-
-
-
-/*///////////////////////////////
-         media-queries
-///////////////////////////////*/
 
 
 @media screen and (max-width: 860px) {
@@ -282,17 +234,9 @@ nav > ul > li:hover > a {
         -o-transition: all 0.3s;
         transition: all 0.3s;
     }
-
-    #logo.header-fixed2 {
-        height: 0;
-        opacity: 0;
-    }
-
     .liens_niveau1 {
-       /* line-height: 20px;*/
         margin: 0;
     }
-
 
     nav {
         float: none;
@@ -301,8 +245,6 @@ nav > ul > li:hover > a {
 
 @media screen and (max-width: 550px) {
     
-    /*----  container  ----*/
-
     #navbar {
         position: relative;
         top: -60px;
@@ -320,18 +262,11 @@ nav > ul > li:hover > a {
         z-index: 98;
     }
 
-    header.header-fixed3 {
-        height: 45px;
-    }
-
-
     nav, #logo {
         float: none;
         display: inherit;
     }
 
-
-    /*----   Logo   ----*/
 
     #logo {
         position: fixed;
@@ -339,24 +274,11 @@ nav > ul > li:hover > a {
         left: 35%
     }
 
-    #logo.header-fixed3 {
-        height: auto;
-        opacity: 1;
-    }
-
     #logo a {
         font-size: 35px;
         line-height: 60px;
     }
 
-    #logo a.header-fixed3 {
-        line-height: 45px;
-        font-size: 32px;
-    }
-
-
-    /*----   Menu    ----*/
-    
     nav label {
         cursor: pointer;
     }
@@ -389,15 +311,10 @@ nav > ul > li:hover > a {
         transition: all 0.3s;
     }
 
-    .icon-menu.header-fixed3 {
-        top: 4px;
-    }
-
     .icon-menu:before {
         content: "\e009";
         font-family: 'icomoon';
         visibility: visible;
-        speak: none;
         font-style: normal;
         font-weight: normal;
         font-variant: normal;
@@ -405,14 +322,6 @@ nav > ul > li:hover > a {
         line-height: 1;
         font-size: 25px;
         -webkit-font-smoothing: antialiased;
-    }
-    
-    #bouton_menu:checked + #menu {
-        display: inherit;
-    }
-
-    #bouton_menu:active {
-        background: #EC7063;
     }
 
     #menu p {
@@ -471,12 +380,12 @@ nav > ul > li:hover > a {
         border-left: 4px solid transparent;
     }
 
-    .liens_niveau1:active, .liens_niveau2:active {
+    .liens_niveau1:active{
         background: #273646;
         color: #ff6760;
     }
 
-    .liens_niveau1:hover, .liens_niveau2:hover {
+    .liens_niveau1:hover {
         background: #273646;
         color: #ecf0f1;
     }
@@ -489,9 +398,6 @@ nav > ul > li:hover > a {
         background: #384f65;
         color: #ecf0f1;
     }
-
-
-    /*----    Sous-menu   ----*/
 
     #menu ul {
         visibility: visible;
@@ -509,17 +415,6 @@ nav > ul > li:hover > a {
 
     #menu ul li {
         border-bottom: 1px solid transparent;
-    }
-
-    .liens_niveau2 {
-        margin-left: 0;
-        font-size: 19px;
-        display: block;
-        padding-left: 25%;
-        line-height: 20px;
-        width: 75%;
-        color: #ecf0f1;
-        font-weight: normal;
     }
 
 }

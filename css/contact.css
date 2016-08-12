@@ -1,20 +1,12 @@
-@charset "UTF-8";
-/* CSS Document */
-
-/*////////////////////////////
-           Contact
-////////////////////////////*/
 
 #bg_contact {
     background: #2c3e50;
     position: relative;
+    border-top: 10px solid#fc5e57;
 }
 
-/*----    FontIcon    ----*/
-
-.icones_social:before, .icon-mail:before, .icon-location:before, .retour-accueil:before {
+.icones_social:before, .icon-mail:before, .icon-location:before {
     font-family: 'icomoon';
-    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -35,10 +27,6 @@
     transition: 0.2s;
 }
 
-
-/*----    Div mail + lieu    ----*/
-
-/*-*/
 .icon-mail:before {
     content: "\e605";
 }
@@ -46,8 +34,6 @@
 .icon-location:before {
     content: "\e606";
 }
-/*-*/
-
 
 .icon-mail:before, .icon-location:before {
     display: inherit;
@@ -76,11 +62,6 @@
     margin-left: 20px;
 }
 
-
-/*----    Div Social    ----*/
-
-/*-*/
-
 .icon-google-plus:before {
     content: "\e600";
     background: #db4a39;
@@ -100,23 +81,13 @@
     box-shadow: 2px 2px 0 #db4a39;
 }
 
-
-.icon-skype:before {
-    content: "\e602";
-    background: #00aff0;
-}
-
-.icon-skype:after {
-    box-shadow: 2px 2px 0 #00aff0;
-}
-
-.icon-blogger:before {
+.icon-twitter:before {
     content: "\e603";
-    background: #edaf1c;
+    background: #41b7d8;
 }
 
-.icon-blogger:after {
-    box-shadow: 2px 2px 0 #edaf1c;
+.icon-twitter::after {
+    box-shadow: 2px 2px 0 #41b7d8;
 }
 
 
@@ -138,9 +109,6 @@
 .icon-linkedin:after {
     box-shadow: 2px 2px 0 #0073b2;
 }
-
-
-/*-*/
 
 
 #div_social {
@@ -198,22 +166,9 @@
     opacity: 1;
 }
 
-.retour-accueil:before {
-    content: "\e608";
-    font-size: 18px;
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    display: block;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: #fff;
-}
-
-
 @media screen and (max-width: 550px) {
 
-    .icones_social:before, .icon-mail:before, .icon-location:before, .retour-accueil:before {
+    .icones_social:before, .icon-mail:before, .icon-location:before {
         line-height: 34px;
         font-size: 17px;    
     }
