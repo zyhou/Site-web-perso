@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*////////////////////////////
+           Article
+////////////////////////////*/
+
+#bg_article {
+	background: #34495e;
+	font-family: Lato;
+	position: relative;
+}
+
+
+#article {
+	margin-top: 60px;
+	margin-bottom: 40px;
+}
+
+.date_article {
+	position: absolute;
+	left: -2px;
+	top: 135px;
+	height: 42px;
+	width: 50px;
+	padding-top: 8px;
+	text-align: center;
+	border-radius: 50%;
+	background: #34495e;
+	color: #abbdbe;
+}
+
+#article h1 {
+	font-size: 55px;
+	color: #fb8681;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+#article .intro_article {
+	margin-bottom: 30px;
+	padding-left: 20px;
+	font-style: italic;
+	color: #abbdbe;
+}
+
+.img_article {
+	width: 100%;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 30px;
+	background: url('../img/googlenow.png')
+}
+
+#article p {
+	color: #abbdbe;
+	font-size: 17px;
+	margin-bottom: 13px;
+	line-height: 20px;
+	text-align: justify;
+	font-weight: lighter;
+}
+#article-new
+{
+padding: 10px;
+}
+
+#article-new p
+{
+color : #496683;
+}
+
+#article p>a
+{
+color : #E47575;
+}
+
+@media screen and (max-width: 550px) {
+
+    #article h1 {
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+}
+
+
+
