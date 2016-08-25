@@ -58,29 +58,6 @@ section {
     box-shadow: 0 0px #c34943;
 }
 
-#presentation {
-    margin-top: 80px;
-    margin-bottom: 80px;
-    background: #d9dfe3;
-    position: relative;
-}
-
-#presentation h1 {
-    font-weight: normal;
-    font-size: 25px;
-    color: #687374;
-    font-weight: bold;
-    position: absolute;
-    left: 30px;
-	padding-top: 10px;	
-}
-
-@media screen and (max-width: 768px) {
-    #presentation {
-        padding-top: 7px;
-    }
-}
-
 @media screen and (max-width: 850px) {
     #bienvenu h1 {
         font-size: 45px;

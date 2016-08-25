@@ -21,15 +21,10 @@ header{
     transition: 0.3s;
 }
 
-header.header-fixed {
-    height: 50px;
-    z-index: 100;
-    opacity: 0.97;
-}
-
 nav, #logo {
     display: inline-block;
     vertical-align: middle;
+    margin: 0 0 10px;
 }
 
 nav {
@@ -37,21 +32,8 @@ nav {
     float: right;
 }
 
-
 #menu a {
 	text-decoration: none;
-}
-
-#bouton_menu {
-    display: none;
-}
-
-#menu p {
-    display: none;
-}
-
-.bordure_menu {
-    display: none;
 }
 
 #logo a {
@@ -70,12 +52,7 @@ nav {
     transition: 0.3s;
 }
 
-#logo a.header-fixed {
-    line-height: 50px;
-    font-size: 30px;
-}
-
-nav li {
+nav  li {
     display: inline-block;
     position: relative;
     text-transform: uppercase;
@@ -97,19 +74,7 @@ nav li {
     transition: all 0.3s;
 }
 
-.liens_niveau1.header-fixed {
-    margin-top: 0px;
-}
-
 .active-link {
-    color: #ff6760;
-}
-
-#menu li.current a {
-    color: #ff6760;
-}
-
-.liens_niveau1:hover {
     color: #ff6760;
 }
 
@@ -134,18 +99,6 @@ nav li {
     transition: all 0.3s;
 }
 
-#menu ul.header-fixed {
-    width: 100px;
-    top: 47px;
-    border-top: 2px solid #ff6760;
-}
-
-#menu ul.header-fixed2 {
-    width: 100px;
-    top: 43px;
-    border-top: 2px solid #ff6760;
-}
-
 #menu ul:after {
     content: '';
     display: inline-block;
@@ -164,11 +117,6 @@ nav li {
 #menu li:hover > ul {
     visibility: visible;
     opacity: 1;
-}
-
-#menu li:hover > ul.header-fixed {
-    width: 100px;
-    opacity: 0.95;
 }
 
 #menu ul li {
@@ -190,19 +138,9 @@ nav > ul > li:hover > a {
 
 @media screen and (max-width: 860px) {
     
-	  header{
+    header{
         height: 170px;
     }
-	
-    header.header-fixed {
-        height: 100px;
-    }
-
-    header.header-fixed2 {
-        height: 45px;
-        opacity: 0.97;
-    }
-
 
     #logo, nav {
         display: inherit;
@@ -219,6 +157,7 @@ nav > ul > li:hover > a {
         -o-transition: all 0.3s;
         transition: all 0.3s;
     }
+
     .liens_niveau1 {
         margin: 0;
     }
@@ -229,11 +168,6 @@ nav > ul > li:hover > a {
 }
 
 @media screen and (max-width: 550px) {
-    
-    #navbar {
-        position: relative;
-        top: -60px;
-    }
 
     header {
         height: 60px;
@@ -264,28 +198,6 @@ nav > ul > li:hover > a {
         line-height: 60px;
     }
 
-    nav label {
-        cursor: pointer;
-    }
-
-    #bouton_menu {
-        display: none;
-    }
-    
-    #menu p {
-        display: inherit;
-        margin-left: 0;
-        font-size: 20px;
-        text-align: left;
-        padding-left: 10%;
-        line-height: 60px;
-        width: 90%;
-        color: #ff6760;
-        text-transform: none;
-        font-weight: bold;
-
-    }
-
     #menu {
         background: #2c3e50;
         position: fixed;
@@ -303,17 +215,9 @@ nav > ul > li:hover > a {
         transition: 0.3s;
     }
 
-
     #menu li {
         display: inherit;
         text-align: left;    
-    }
-
-    .bordure_menu {
-        display: inherit;
-        width: 85%;
-        border-bottom: 1px solid #384f65;
-        margin: auto;
     }
 
     .liens_niveau1 {
