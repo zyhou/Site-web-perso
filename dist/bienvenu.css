@@ -1,0 +1,103 @@
+section {
+  font-family: Lato;
+  background: #ced4d8;
+}
+
+#bg_bienvenu {
+  background: #34495e;
+}
+
+#bienvenu {
+  margin-top: 160px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#bienvenu h1 {
+  font-size: 55px;
+  font-weight: normal;
+  color: #95a5a6;
+}
+
+#bienvenu p {
+  font-size: 32px;
+  margin-top: 40px;
+  color: #95a5a6;
+}
+
+#bienvenu a {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 130px;
+  position: relative;
+  padding: 12px 35px 10px 35px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 3px;
+  background: #ff6760;
+  box-shadow: 0 4px #dc524c;
+}
+
+#bienvenu a:hover {
+  background: #fc5e57;
+  box-shadow: 0 4px #c34943;
+}
+
+#bienvenu a:active {
+  top: 4px;
+  box-shadow: 0 0 #c34943;
+}
+
+@media screen and (max-width: 850px) {
+  #bienvenu h1 {
+    font-size: 45px;
+  }
+
+  #bienvenu p {
+    font-size: 28px;
+  }
+
+  #bienvenu {
+    margin-top: 220px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  #bienvenu {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  #bienvenu h1 {
+    display: none;
+  }
+
+  #bienvenu p {
+    font-size: 25px;
+  }
+
+  #bienvenu a {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 115px;
+    padding: 10px 32px 7px 32px;
+    box-shadow: 0 4px #c34943;
+  }
+
+  #bienvenu a:hover {
+    background: #fc5e57;
+    box-shadow: 0 4px #c34943;
+  }
+
+  #bienvenu a:active {
+    top: 4px;
+    box-shadow: 0 0 transparent;
+  }
+}

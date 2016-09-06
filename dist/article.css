@@ -1,0 +1,60 @@
+#article {
+  padding: 20px;
+}
+
+#article h1 {
+  font-size: 55px;
+  font-weight: normal;
+  margin-bottom: 30px;
+  color: #fb8681;
+}
+
+#article p {
+  font-size: 17px;
+  font-weight: lighter;
+  line-height: 20px;
+  margin-bottom: 13px;
+  text-align: justify;
+  color: #496683;
+}
+
+#article p > a {
+  color: #e47575;
+}
+
+#presentation {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  background: #d9dfe3;
+}
+
+#presentation h1 {
+  font-size: 25px;
+  font-weight: normal;
+  font-weight: bold;
+  left: 30px;
+  padding-top: 10px;
+  color: #687374;
+}
+
+@media screen and (max-width: 550px) {
+  #article h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #presentation {
+    padding-top: 7px;
+  }
+
+  #article {
+    padding-left: 0;
+  }
+}
+
+
