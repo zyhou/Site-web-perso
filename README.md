@@ -7,8 +7,7 @@ Installation :
 
 - node.js
 - npm
-- npm install gulp -g
-->npm install
+- npm install
 
 Utilisation :
 
