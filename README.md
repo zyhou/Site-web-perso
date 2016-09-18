@@ -1,7 +1,7 @@
 # Site-web-perso
 Code source de mon site web perso
 
-Disponible : http://maxime.richard9.free.fr
+**Le site a bougé vers le repo [https://github.com/zyhou/zyhou.github.io](https://github.com/zyhou/zyhou.github.io)**
 
 Installation :
 
